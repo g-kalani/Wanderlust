@@ -1,0 +1,1 @@
+This file is a placeholder. If you prefer a real image, replace with a PNG at public/images/placeholder.png
