@@ -7,10 +7,10 @@
 
 A full-stack web application for renting and listing properties, built with **Node.js**, **Express**, **EJS**, and **MongoDB**. Features include property listings, user authentication, reviews & ratings, image uploads via Cloudinary, and responsive design with Bootstrap.
 
-<img width="1920" height="956" alt="image" src="https://github.com/user-attachments/assets/ef7d2937-6a8c-48a6-b42c-50d798d90f03" />
-<img width="1920" height="957" alt="image" src="https://github.com/user-attachments/assets/49f75fb0-3f07-495d-ace4-0013d9ecea8b" />
-<img width="1920" height="415" alt="image" src="https://github.com/user-attachments/assets/224d2d2e-9bc3-43ce-95d8-60ed30f511bd" />
-<img width="1920" height="955" alt="image" src="https://github.com/user-attachments/assets/9e8026fd-decf-4178-bad2-908c98f2bf07" />
+<img width="1920" height="956" alt="image" src="https://github.com/user-attachments/assets/38f2a817-56a7-42c0-8cbe-605e5f2706b6" />
+<img width="1920" height="964" alt="image" src="https://github.com/user-attachments/assets/d674def1-a89c-4c1d-990c-60ae239bc31e" />
+<img width="1920" height="415" alt="image" src="https://github.com/user-attachments/assets/ad2fa6e7-2940-4ed8-9f65-44e27351b610" />
+<img width="1920" height="955" alt="image" src="https://github.com/user-attachments/assets/f9ed8bee-be76-41ab-8330-867880a91d52" />
 
 ---
 
