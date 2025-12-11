@@ -7,6 +7,11 @@
 
 A full-stack web application for renting and listing properties, built with **Node.js**, **Express**, **EJS**, and **MongoDB**. Features include property listings, user authentication, reviews & ratings, image uploads via Cloudinary, and responsive design with Bootstrap.
 
+<img width="1920" height="956" alt="image" src="https://github.com/user-attachments/assets/ef7d2937-6a8c-48a6-b42c-50d798d90f03" />
+<img width="1920" height="957" alt="image" src="https://github.com/user-attachments/assets/49f75fb0-3f07-495d-ace4-0013d9ecea8b" />
+<img width="1920" height="415" alt="image" src="https://github.com/user-attachments/assets/224d2d2e-9bc3-43ce-95d8-60ed30f511bd" />
+<img width="1920" height="955" alt="image" src="https://github.com/user-attachments/assets/9e8026fd-decf-4178-bad2-908c98f2bf07" />
+
 ---
 
 ## ✨ Features
