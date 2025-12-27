@@ -7,6 +7,8 @@
 
 A full-stack web application for renting and listing properties, built with **Node.js**, **Express**, **EJS**, and **MongoDB**. Features include property listings, user authentication, reviews & ratings, image uploads via Cloudinary, and responsive design with Bootstrap.
 
+[![Deploys to Render](https://img.shields.io/badge/Deploy%20to-Render-46E3B7?style=for-the-badge&logo=render)](https://wanderlust-gj0d.onrender.com)
+
 <img width="1920" height="956" alt="image" src="https://github.com/user-attachments/assets/38f2a817-56a7-42c0-8cbe-605e5f2706b6" />
 <img width="1920" height="964" alt="image" src="https://github.com/user-attachments/assets/d674def1-a89c-4c1d-990c-60ae239bc31e" />
 <img width="1920" height="415" alt="image" src="https://github.com/user-attachments/assets/ad2fa6e7-2940-4ed8-9f65-44e27351b610" />
@@ -14,21 +16,21 @@ A full-stack web application for renting and listing properties, built with **No
 
 ---
 
-## ✨ Features
+## Features
 
-- 🔍 **Property Search & Browse** – Explore rental listings with detailed information
-- 📝 **Create & Edit Listings** – Post new properties with images and descriptions
-- ⭐ **Reviews & Ratings** – Leave and view reviews for properties (1-5 stars)
-- 🖼️ **Image Upload** – Upload property images via Cloudinary cloud storage
-- 🔐 **User Authentication** – Secure signup, login, and session management
-- ✅ **Form Validation** – Joi schema validation on both frontend and backend
-- 🎯 **Authorization** – Only listing owners can edit or delete their properties
-- 📱 **Responsive Design** – Bootstrap 5 for mobile and desktop compatibility
-- 🌐 **RESTful API** – Clean separation of routes, controllers, and models
+-  **Property Search & Browse** – Explore rental listings with detailed information
+-  **Create & Edit Listings** – Post new properties with images and descriptions
+-  **Reviews & Ratings** – Leave and view reviews for properties (1-5 stars)
+-  **Image Upload** – Upload property images via Cloudinary cloud storage
+-  **User Authentication** – Secure signup, login, and session management
+-  **Form Validation** – Joi schema validation on both frontend and backend
+-  **Authorization** – Only listing owners can edit or delete their properties
+-  **Responsive Design** – Bootstrap 5 for mobile and desktop compatibility
+-  **RESTful API** – Clean separation of routes, controllers, and models
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -41,50 +43,8 @@ A full-stack web application for renting and listing properties, built with **No
 | **Session Management** | Express-Session, Connect-Mongo |
 | **Other** | Method-Override, Connect-Flash, EJS-Mate |
 
----
 
-## 📁 Project Structure
-
-```
-Wanderlust/
-├── controllers/           # Business logic for routes
-│   ├── listing.js
-│   ├── review.js
-│   └── user.js
-├── models/               # Mongoose schemas
-│   ├── listing.js
-│   ├── review.js
-│   └── user.js
-├── routes/               # API endpoints
-│   ├── listing.js
-│   ├── review.js
-│   └── user.js
-├── views/                # EJS templates
-│   ├── includes/        # Navbar, footer, flash messages
-│   ├── layouts/         # Boilerplate template
-│   ├── listings/        # Listing pages (index, show, new, edit)
-│   └── users/           # Auth pages (signup, login)
-├── public/              # Static files (CSS, JS, images)
-│   ├── css/
-│   └── js/
-├── seeds/               # Database seeding scripts
-│   ├── seedDB.js       # Seed 9 sample listings with users
-│   └── fixImages.js    # Update listing images
-├── utils/              # Helper functions
-│   ├── ExpressError.js
-│   └── wrapAsync.js
-├── app.js             # Main Express app
-├── cloudConfig.js     # Cloudinary configuration
-├── middleware.js      # Auth middleware
-├── schema.js          # Joi validation schemas
-├── .env.example       # Environment variables template
-├── .gitignore        # Git ignore file
-└── package.json      # Dependencies
-```
-
----
-
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js (v20+)
@@ -134,18 +94,8 @@ Wanderlust/
    http://localhost:3000
    ```
 
----
 
-## 📚 Available Scripts
-
-- `npm run dev` – Start with nodemon (auto-reload on file changes)
-- `npm start` – Start the server (production mode)
-- `npm run seed` – Seed database with sample listings and users
-- `npm test` – Run tests (currently not configured)
-
----
-
-## 🔑 Key Endpoints
+##  Key Endpoints
 
 ### Listings
 - `GET /listings` – View all listings
@@ -170,7 +120,7 @@ Wanderlust/
 
 ---
 
-## 🔐 Security Features
+##  Security Features
 
 - ✅ Password hashing with Passport-Local-Mongoose
 - ✅ Session-based authentication
@@ -179,20 +129,4 @@ Wanderlust/
 - ✅ Authorization checks (isOwner, isLoggedIn middleware)
 - ✅ Secure Cloudinary image uploads
 - ✅ HTTPOnly cookies for session tokens
-
----
-
-## 🌟 Future Enhancements
-
-- 🗺️ Google Maps API integration for location mapping
-- 💳 Stripe payment integration for bookings
-- 📱 Mobile app with React Native
-- 📧 Email notifications (booking confirmations, reviews)
-- 🔍 Advanced search filters (price range, amenities, dates)
-- 👨‍💼 Admin dashboard for analytics
-- 🌐 Multi-language support
-- ⭐ Wishlist/favorites feature
-
----
-
 
